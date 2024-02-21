@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <head>
+        <title>Petstore management system</title>
+    </head>
+    <body>
+        <header>
+            <h1>Petstore management system</h1>
+            {% include 'petstoreapp/nav.html' %}
+        </header>
+
+        <div>
+            {% block content %}
+            Welcome to pet management system.
+            this is disigmned and developed in django
+            {% endblock content %}
+        </div>
+
+        <footer>
+            <p> &copy; 2024 Petstore management system: Nik</p>
+        </footer>
+    </body>
+</html>
